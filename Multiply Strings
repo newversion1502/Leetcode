@@ -1,0 +1,13 @@
+// class solution is created 
+class Solution {
+// num1 & num2 is passed in a function
+    public String multiply(String num1, String num2) {
+// n1 variable is created and then use pass num1 in function it will convert the string into integer data type 
+        int n1 = Integer.parseInt(num1);
+        int n2 = Integer.parseInt(num2);
+// store the vlaue of n1 & n2 in product variable
+        int product = n1*n2;
+//convert the product into string again using toString function
+        return Integer.toString(product);
+    }
+}
